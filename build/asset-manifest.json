@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34db59b2.css",
+    "main.js": "/static/js/main.6d02bfc7.js",
+    "static/media/Topographic Dark.jpg": "/static/media/Topographic Dark.8d011cfb442e92362aa4.jpg",
+    "index.html": "/index.html",
+    "main.34db59b2.css.map": "/static/css/main.34db59b2.css.map",
+    "main.6d02bfc7.js.map": "/static/js/main.6d02bfc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34db59b2.css",
+    "static/js/main.6d02bfc7.js"
+  ]
+}

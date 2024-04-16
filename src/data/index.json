@@ -10,7 +10,7 @@
       "id": "2",
       "title": "Back-End",
       "description": "General Knowledge in back-end technologies that help build scalable web applications and high-performance APIs and services.",
-      "technologies": ["Nodejs", "Java", "PHP", "SQL", "Firebase"]
+      "technologies": ["Nodejs", "Express", "Java", "PHP", "SQL", "Firebase", "MongoDB"]
     },
     {
       "id": "3",
@@ -21,7 +21,7 @@
     {
       "id": "4",
       "title": "WordPress",
-      "description": "Experienced with the WordPress platform, I specialize in developing and customizing responsive and SEO-friendly websites.",
+      "description": "Highly Experienced with the WordPress platform, I specialize in developing and customizing responsive and SEO-friendly websites.",
       "technologies": ["WordPress"]
     }
   ],
@@ -30,24 +30,24 @@
       "id": "1",
       "src": "./img/RR_logo.png",
       "title": "Ride Ready",
-      "description": "(In Progress) An application that lets users see the current status of mountain bike trails, get directions, and lets trail maintainers provide information.",
+      "description": "(In Progress) An application that lets users see the current status of mountain bike trails, get directions, and lets trail maintainers provide information. Utilizes React functional components, hooks, state, various APIs, and Firebase data storage.",
       "link": "/ride-ready-project",
       "technologies": ["HTML", "React", "CSS", "Firebase", "API"]
     },
     {
       "id": "2",
       "src": "./img/jrsPhotography.png",
-      "title": "Photography Shop",
+      "title": "Photography E-Commerce",
       "description": "(Coming Soon) An e-commerce website to host, display, and sell personal photography i've taken as a hobby. Clean, elegant, and simple. Functioning cart and payment processor.",
       "link": "",
-      "technologies": ["HTML", "CSS", "Nodejs"]
+      "technologies": ["HTML", "CSS", "Nodejs", "Express", "React", "MongoDB", "Stripe"]
     },
     {
       "id": "3",
-      "src": "./img/non-profit-portal-logo.png",
-      "title": "Non-Profit Org Portal",
-      "description": "(School Project - Needs Work) A website where users can search through Non-Profit organizations and learn about what they offer and who they are. Supports CRUD functionality and authentication.",
-      "link": "",
+      "src": "./img/PortalML.png",
+      "title": "Machine Learning Portal",
+      "description": "(School Project - Needs Work) A website where users can browse through Machine Learning topics and assets like: websites, blogs, videos, and more to learn about the different aspects of Machine Learning. Supports CRUD functionality and authentication.",
+      "link": "/ml-portal-project",
       "technologies": ["HTML", "PHP", "SQL", "CSS"]
       
     }

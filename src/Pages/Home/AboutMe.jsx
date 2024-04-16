@@ -12,7 +12,7 @@ export default function AboutMe() {
             <br/><br/>
             But my passion doesn't stop when the workday ends.
             <br/><br/>
-            Off the clock, you'll find me chasing the perfect shot with my camera, tackling rugged trails on my mountain bike, leveling up in my favorite video games, or cruising the open road on my motorcycle. I believe in blending work and play to create a balanced and fulfilling life.
+            Off the clock, you'll find me chasing the perfect shot with my camera, tackling rugged trails on my mountain bike, working on personal projects to further my knowledge and improve my skills, or cruising the open road on my motorcycle. I believe in blending work and play to create a balanced and fulfilling life.
             <br/><br/>
             As I continue to grow in my career, I'm eager to further explore full stack development, AI, and other computer science related fields. I'm always seeking new challenges and opportunities to expand my skills and knowledge in the ever-evolving tech industry. Let's connect and explore the exciting possibilities ahead!
           </p>

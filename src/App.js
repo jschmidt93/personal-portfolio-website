@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Pages/Home/Navbar";
 import Home from "./Pages/Home/Homescreen";
 import RideReadyProject from "./Pages/Home/RideReadyProject";
+import MLPortalProject from "./Pages/Home/MLPortalProject";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/ride-ready-project" element={<RideReadyProject/>}></Route>
+            <Route path="/ml-portal-project" element={<MLPortalProject/>}></Route>
             <Route path="*" element={<div>404 Not Found</div>}></Route>
           </Routes>
         </div>

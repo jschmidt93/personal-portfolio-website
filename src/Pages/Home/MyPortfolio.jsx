@@ -16,7 +16,10 @@ const technologyColors = {
   "Adobe Illustrator": "#FF9A00",
   Figma: "#0ACF83",
   Firebase: "#FFCA28",
-  API: "#007BFF"
+  API: "#007BFF",
+  Stripe: "#6772E5",
+  MongoDB: "#13AA52",
+  Express: "#CCCCCC" // Light gray color for better visibility on black background
 };
 
 export default function MyPortfolio() {

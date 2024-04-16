@@ -423,6 +423,19 @@ h3 {
   justify-content: center;
   background-color: var(--black);
 }
+.mlproject--section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 8%;
+  padding-bottom: 12%;
+  padding-left: 85.3px;
+  padding-right: 85.3px;
+  align-items: center;
+  gap: 114.6px;
+  justify-content: center;
+  background-color: var(--black);
+}
 .about--section--img > img {
   max-width: 100%;
   align-content: center;
@@ -430,6 +443,7 @@ h3 {
   border-top: none;
   border-radius: 30px;
 }
+
 
 .rrproject--section--img > img {
   
@@ -475,7 +489,7 @@ h3 {
 .portfolio--section--container {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-evenly;
   gap: 30px;
   width: 100%;
@@ -495,7 +509,7 @@ h3 {
 .portfolio--section--card {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
   flex: 1 0 0;
   background: var(--darkgrey);
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
@@ -511,6 +525,8 @@ h3 {
 }
 
 .full--card--link{
+  display: flex;
+  align-items: stretch;
   text-decoration: none;
 }
 
@@ -575,6 +591,24 @@ a:active{
 
 .rrimg {
   max-width: 325px;
+}
+
+.mlproject--section--img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-left: none;
+  border-top: none;
+}
+
+.mlproject--section--img > img {
+  border-radius: 20px;
+  width: 600px;
+}
+
+.mlimg {
+  max-width: 800px;
 }
 
 .back-button-container{
@@ -811,6 +845,7 @@ input[type="checkbox"] {
   .portfolio--section--container,
   .portfolio--container-box,
   .rrproject--section,
+  .mlproject--section,
   .footer--link--container,
   .footer--items > ul,
   .footer--content--container {
@@ -858,6 +893,14 @@ input[type="checkbox"] {
     padding-bottom: 16%;
   }
   .rrproject--section {
+    gap: 40px;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 12%;
+    padding-bottom: 16%;
+    padding-top: 100px;
+  }
+  .mlproject--section {
     gap: 40px;
     padding-left: 6%;
     padding-right: 6%;
@@ -939,7 +982,10 @@ input[type="checkbox"] {
     width: 100%;
   }
   .rrproject--section--img > img{
-    max-width: 225px;
+    max-width: 350px;
+  }
+  .mlproject--section--img > img{
+    max-width: 350px;
   }
   .project-section-2{
     display: flex;
